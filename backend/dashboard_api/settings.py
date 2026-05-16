@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-ji(@00+x(y%_28hc-viry07^r@3ug#62m%5d1)58&*bya=vwfg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "blackcoffer-dashboard-yj0y.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
